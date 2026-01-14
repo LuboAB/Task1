@@ -315,11 +315,11 @@ Epoch [36/50] | T_Loss: 0.0317 T_Acc: 98.71% | V_Loss: 0.5017 V_Acc: 90.27% | LR
 Epoch [50/50] | T_Loss: 0.0264 T_Acc: 98.78% | V_Loss: 0.5065 V_Acc: 90.62% | LR: 0.000125
 ```
 
-s![output](.\assets\output.png)
+s![output](assets\output.png)
 
 ### 4.2 训练曲线 (Loss & Accuracy)
 
-![results](.\assets\results-1768404111926.png)
+![results](assets\results-1768404111926.png)
 
 *   **Loss 曲线**：训练 Loss (Training Loss) 呈现出非常平滑的下降趋势，最终接近 0。验证 Loss (Validation Loss) 在 Epoch 20 左右趋于稳定，保持在 0.5 左右。
 *   **Accuracy 曲线**：验证准确率稳步上升，最终稳定在 90% 左右。
@@ -328,7 +328,7 @@ s![output](.\assets\output.png)
 
 程序运行结束后自动生成了混淆矩阵，用于展示不同类别之间的误判情况。
 
-![confusion_matrix](.\assets\confusion_matrix.png)
+![confusion_matrix](assets\confusion_matrix.png)
 
 ### 4.4 结论
 
@@ -402,7 +402,7 @@ class CBAMBasicBlock(nn.Module):
 
 改进模型同样并在相同的超参数设置下（Optimizer: Adam, LR: 0.001, Scheduler: ReduceLROnPlateau）训练了 50 个 Epoch。
 
-![results](.\assets\results-1768406889835.png)
+![results](assets\results-1768406889835.png)
 
 **训练日志摘要 (CBAM-ResNet)：**
 *   **收敛速度**：CBAM 模型在早期下降更快，Epoch 13 时 Loss 已降至 0.1014，而原模型在同阶段 Loss 为 0.4456。
