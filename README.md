@@ -1,7 +1,3 @@
-*注：为方便格式编辑，本文档使用markdown编辑，本文档的PDF版本由markdown转换而来。*
-
-项目请通过链接访问https://github.com/LuboAB/Task1。
-
 ## 1. 程序功能
 
 本项目的目标是构建一个基于深度卷积神经网络（CNN）的图像分类系统，用于自动识别 7 种常见的矿石样本（biotite, bornite, chrysocolla, malachite, muscovite, pyrite, quartz）。
